@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Julius+Sans+One&display=swap');
+
+body{
+    background-color: #FCDABF;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

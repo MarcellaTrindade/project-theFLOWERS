@@ -1,0 +1,41 @@
+.sections{
+    display: flex;
+}
+
+.main-title h1{
+    font-size: 4rem;
+    font-family: 'Jockey One', sans-serif;
+    color: #C40839;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.308);
+}
+
+.main-text p{
+    margin-top: 2rem;
+    font-size: 1.65rem;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
+}
+
+.main-img img{
+    width: 55rem;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.445));
+}
+
+.main-content{
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+
+
+.main-btn button{
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #C40839;
+    border: none;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 20px;
+    color: white;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
