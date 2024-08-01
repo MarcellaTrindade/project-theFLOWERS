@@ -1,4 +1,4 @@
-.sections{
+.sections-top{
     display: flex;
 }
 
@@ -6,7 +6,7 @@
     font-size: 4rem;
     font-family: 'Jockey One', sans-serif;
     color: #C40839;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.308);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.192);
 }
 
 .main-text p{
@@ -17,8 +17,7 @@
 }
 
 .main-img img{
-    width: 55rem;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.445));
+    width: 60rem;
 }
 
 .main-content{
@@ -26,16 +25,96 @@
     margin-left: 10rem;
 }
 
-
 .main-btn button{
     font-family: 'Julius Sans One', sans-serif;
     background-color: #C40839;
-    border: none;
-    width: 15rem;
-    height: 3rem;
-    border-radius: 20px;
     color: white;
     margin-top: 3rem;
-    font-size: 1.5rem;
     font-weight: 100;
+}
+
+.sections-mid{
+    background-color: #C40839;
+    display: flex;
+    
+}
+
+.section-left{
+    margin-top: 15rem;
+    margin-left: 5rem
+}
+
+.section-left-title h1{
+    font-size: 4rem;
+    font-family: 'Jockey One', sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.192);
+}
+
+.section-left-text{
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
+    font-size: 1.65rem;
+    margin-top: 2rem;
+}
+
+.section-left-btn button{
+    font-family: 'Jockey One', sans-serif;
+    color: #C40839;
+    margin-top: 3rem;
+}
+
+.section-right{
+    display: grid;
+}
+
+.section-cards-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards{
+    background-color: #FCDABF;
+    width: 15rem;
+    margin-top: 5rem;
+    margin-inline: 2rem;
+    border-radius: 20px;
+    padding: 2rem;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.cards img{
+    width: 15rem;
+}
+
+.cards button{
+    background-color: #C40839;
+    color: #fff;
+    font-family: 'Jockey One', sans-serif;
+    margin-top: 2rem;
+}
+
+.cards p{
+    font-size: 1.3rem;
+}
+
+.sections-card-2{
+    display: flex;
+}
+
+.card-M{
+    background-color: #FCDABF;
+    width: 15rem;
+    margin-top: 5rem;
+    margin-inline: 2rem;
+    border-radius: 20px;
+    padding: 2rem;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.card-m{
+    
 }

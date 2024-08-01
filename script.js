@@ -20,5 +20,6 @@ function loadCSS(cssPath) {
 document.addEventListener("DOMContentLoaded", () => {
     loadComponent("nav", "components/nav/nav.html", "components/nav/nav.css", "/style.css");
     loadComponent("section", "components/section/section.html", "components/section/section.css", "/style.css");
+    loadComponent("footer", "components/footer/footer.html", "components/footer/footer.css", "/style.css");
 
 });

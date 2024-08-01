@@ -14,6 +14,24 @@ li{
     list-style: none;
 }
 a{
-    color: black;
+    color: #C40839;
     text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    width: 15rem;
+    height: 3rem;    
+    border-radius: 20px;
+    border: none;
+    font-size: 1.5rem;
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.26);
+}
+
+footer{
+    background-color: #C40839;
+    position: fixed;
+    z-index: -1 ;
+    width: 100%;
 }

@@ -28,12 +28,8 @@
 
 
 .nav-btn button{
-    width: 15rem;
-    height: 3rem;
-    border-radius: 20px;
     border: 2px solid #C40839;
     background-color: transparent;
-    font-size: 1.5rem;
     color: #C40839;
-    cursor: pointer;
+    font-weight: 100;
 }
