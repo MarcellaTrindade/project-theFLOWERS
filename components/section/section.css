@@ -36,11 +36,11 @@
 .sections-mid{
     background-color: #C40839;
     display: flex;
-    
+    padding-bottom: 2rem;
 }
 
 .section-left{
-    margin-top: 15rem;
+    margin-top: 20rem;
     margin-left: 5rem
 }
 
@@ -90,7 +90,11 @@
     width: 15rem;
 }
 
-.cards button{
+.card-m img, .card-M img{
+    width: 15rem;
+}
+
+.section-right button{
     background-color: #C40839;
     color: #fff;
     font-family: 'Jockey One', sans-serif;
@@ -102,10 +106,26 @@
 }
 
 .sections-card-2{
-    display: flex;
+width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
 }
 
 .card-M{
+    background-color: #FCDABF;
+    width: 38rem;
+    margin-top: 5rem;
+    margin-inline: 2rem;
+    border-radius: 20px;
+    padding: 2rem;
+    font-family: 'Julius Sans One', sans-serif;
+    justify-content: center;
+}
+
+.card-m{
     background-color: #FCDABF;
     width: 15rem;
     margin-top: 5rem;
@@ -115,6 +135,6 @@
     font-family: 'Julius Sans One', sans-serif;
 }
 
-.card-m{
-    
+.section-bot{
+    background-color: #FCDABF;
 }
